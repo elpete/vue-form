@@ -1,0 +1,8 @@
+src/
+.idea/
+*.log
+todo.txt
+*.sublime-*
+yarn.lock
+.babelrc
+node_modules/
