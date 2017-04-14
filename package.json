@@ -2,12 +2,13 @@
   "name": "vue-form",
   "version": "1.0.0",
   "description": "Simple Vue forms",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel -d dist/ src/",
     "prepublish": "npm run build",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "preinstall": "npm run build"
   },
   "repository": {
     "type": "git",
